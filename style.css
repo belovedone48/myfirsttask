@@ -1,0 +1,121 @@
+ #nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    color: #71bd46;
+}
+
+header {
+	background: url(header-bg.jpg) no-repeat bottom center;
+	background-size: cover;
+	color: #cfcfcf;
+	position: relative;
+	height: 100%;
+}
+header p {
+	color: rgba(255,255,255,0.5);
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 60px;
+	
+}
+.intro-text {
+	position: relative;
+	padding:  250px 0 200px 0px;
+
+	
+}
+.intro-text h1 {
+	font-size: 60px;
+	color: #eeeeee;
+	font-weight: 600;
+}
+.color {
+	color: #71bd46;
+	font-weight: 700;
+}
+
+h1 strong {
+	font-weight: 900;
+}
+h2 {
+	line-height: 20px;
+	margin: 0;
+	font-size: 36px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	color: #666;
+}
+h3 {
+	font-size: 16px;
+	font-weight: 600;
+}
+/*h4 {
+	color: #666;
+	font-size: 100px;
+}*/
+h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 20px;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #888;
+	line-height: 24px;
+}
+#education-section {
+	padding: 100px 0;
+	background-color: #f6f6f6;
+}
+#education-section h4 {
+	border-bottom: 1px solid #b8dea2;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+#education-section p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#project-section {
+	padding: 100px 0;
+	background-color: #f6f6f6;
+	color: green;
+}
+#project-section h4 {
+	border-bottom: 1px solid #b8dea2;
+	padding-bottom: 20px;
+	display: inline-block;
+    color:black;
+	font-size: 25px;
+}
+#project-section p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+    
+
+hr{
+	height: 2px;
+    width: 60px;
+    background: #71bd46;
+    position: relative;
+    border: 0;
+    margin: 30px 0 0 0;
+}
